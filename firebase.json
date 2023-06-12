@@ -12,7 +12,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/Welcome.html"
+        "destination": "Welcome.html"
       }
     ]
   }

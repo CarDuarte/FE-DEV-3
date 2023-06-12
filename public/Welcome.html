@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Welcome</title>
   <link rel="stylesheet" href="./Style/style.css"></link>
 </head>
 <main class="welcome">
@@ -42,13 +42,20 @@
                 </label>
               </div>
             </div>
-            <button type="submit">Sign In</button>
+            <button type="submit">Sign In</button>           
+            <button onclick="redirectToSignUpPage()" type="submit">Create Account</button>
           </div>
           <div class="login-form-footer"></div>
         </form>
       </div>
       <div class="login-right"></div>
     </div>
+    <script>
+      function redirectToSignUpPage() {
+        window.location.href = "SignUpPage.html";
+        alert("moving to sign up");
+      }
+    </script>
   </body>
 </main>
 </html>
